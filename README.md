@@ -7,6 +7,7 @@ Aplicación de __Angular__ para buscar información de países.
 
 #### Incluye:
 + Módulos y componentes
++ Router
 
 #### Paquetes:
 - Bootstrap v5
