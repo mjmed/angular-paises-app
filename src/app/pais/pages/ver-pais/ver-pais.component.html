@@ -5,6 +5,7 @@
     <div class="row">
         <div class="col-12">
             <h1>País: <small>{{ pais.name.common }}</small></h1>
+            <hr>
         </div>
     </div>
 
@@ -18,9 +19,30 @@
             <h3>Información</h3>
             <ul class="list-group">
                 <li class="list-group-item">
+                    <strong>Capital: </strong> {{ pais.capital }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Continente: </strong> {{ pais.region }} - {{ pais.subregion }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Área: </strong> {{ pais.area | number }} km2
+                </li>
+                <li class="list-group-item">
                     <strong>Población: </strong> {{ pais.population | number }}
                 </li>
             </ul>
+        </div>
+
+        <div class="row">
+            <h3>Traducciones</h3>
+            <div class="col">
+                <span
+                    *ngFor="let item of pais.translations | keyvalue"
+                    class="badge bg-primary me-2"
+                >
+                    {{ item.value.official }}
+                </span>
+            </div>
         </div>
     </div>
 </ng-template>
