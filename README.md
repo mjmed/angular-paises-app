@@ -2,7 +2,7 @@
 
 ## Angular: De Cero a Experto | Udemy
 
-Aplicación de __Angular__ para buscar información de países.
+Aplicación __SPA__ de __Angular__ para buscar información de países.
 
 
 #### Incluye:
@@ -10,7 +10,10 @@ Aplicación de __Angular__ para buscar información de países.
 + Router
 + Servicios
 
-#### Paquetes:
+#### Librerías:
 - Bootstrap v5
+
+#### APIs:
++ [REST Countries](https://restcountries.com/)
 
 #### Versión: 0.0.0
