@@ -12,8 +12,9 @@ Aplicación __SPA__ de __Angular__ para buscar información de países.
 
 #### Librerías:
 - Bootstrap v5
+- Animate.css
 
 #### APIs:
-+ [REST Countries](https://restcountries.com/)
++ [REST Countries v3](https://restcountries.com/)
 
 #### Versión: 0.0.0
